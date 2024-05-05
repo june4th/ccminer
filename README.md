@@ -15,8 +15,8 @@ yes | pkg install libjansson build-essential clang binutils git
 2. Fix environment & clone repo:
 ```
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
-git clone https://github.com/june4th/ccminer-termux.git
-cd ccminer-termux
+git clone https://github.com/june4th/ccminer.git
+cd ccminer
 chmod +x build.sh configure.sh autogen.sh start.sh
 ```
 
