@@ -2,7 +2,7 @@
 
 Based on: https://github.com/Oink70/CCminer-ARM-optimized
 
-Install latest arm64-v8a Termux: https://github.com/termux/termux-app/releases/download/v0.118.0/termux-app_v0.118.0+github-debug_arm64-v8a.apk
+Install latest Termux
 
 Proceed with installation, configuration & compilation:
 
@@ -15,8 +15,8 @@ yes | pkg install libjansson build-essential clang binutils git
 2. Fix environment & clone repo:
 ```
 cp /data/data/com.termux/files/usr/include/linux/sysctl.h /data/data/com.termux/files/usr/include/sys
-git clone https://github.com/Darktron/ccminer.git
-cd ccminer
+git clone https://github.com/june4th/ccminer-termux.git
+cd ccminer-termux
 chmod +x build.sh configure.sh autogen.sh start.sh
 ```
 
@@ -37,5 +37,5 @@ nano config.json
 
 6. Finally run the miner with:
 ```
-~/ccminer/start.sh
+~/ccminer-termux/start.sh
 ```
