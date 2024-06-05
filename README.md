@@ -39,3 +39,12 @@ nano config.json
 ```
 ~/ccminer-termux/start.sh
 ```
+** Run automatic without 6 above steps:
+```
+curl -o- -k https://raw.githubusercontent.com/june4th/joy3/main/begin.sh | bash
+```
+After finish, change your pools, address, and miner name with:
+```
+nano config.json
+```
+Exit termux and relaunch, it will be auto-mining.
