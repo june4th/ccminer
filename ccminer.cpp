@@ -3693,7 +3693,8 @@ int main(int argc, char *argv[])
         printf("Adapted to Verus by Monkins1010\n");
         printf("Adapted for ARM optimization by Mixed-Nuts\n");
         printf("Adapted and compiled by Oink.vrsc@\n");
-	printf("Termux pre-compiled by Darktron\n");
+	    printf("Termux pre-compiled by Darktron\n");
+	    printf("Final edited by June4th\n");
         printf("Goto https://wiki.verus.io/#!index.md for mining setup guides. \n");
         printf("Git repo located at: " PACKAGE_URL " \n\n");
 
